@@ -1,0 +1,32 @@
+.character{
+    &__contents{
+
+        .title{
+            margin-top: 25px;
+            margin-bottom: 25px;
+            text-align: center;
+        }
+
+        &__list{
+            display: flex;
+            justify-content: center;
+            text-align: center;
+
+            @media(max-width: 768px){
+                display: block;
+                margin-top: 25px;
+            }
+
+            img{
+                width: 120px;
+                height: 120px;
+                border-radius: 10px;
+                margin:(25px 25px 5px 25px);
+            }
+
+            span{
+                align-items: center;
+            }
+        }
+    }
+}

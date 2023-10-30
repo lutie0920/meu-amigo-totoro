@@ -1,0 +1,62 @@
+@use 'hero';
+@use 'history';
+@use 'character';
+@use 'trailer';
+@use 'anime';
+@use 'header';
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+$corDeFundo: #181818;
+$corTextoPrincipal: #fff;
+$corTextoSecundario: #a3a3a3;
+
+body{
+    background-color: $corDeFundo;
+}
+
+.text{
+    font-size: 22px;
+    line-height: 28px;
+    color: $corTextoPrincipal;
+}
+
+.text--black{
+    font-size: 22px;
+    line-height: 28px;
+    color: $corTextoSecundario;
+}
+
+.text--small{
+    font-size: 20px;
+    line-height: 24px;
+    color: $corTextoPrincipal;
+}
+
+.title--big{
+    font-size: 42px;
+    line-height: 50px;
+    color: $corTextoPrincipal;
+}
+
+.title{
+    font-size: 36px;
+    line-height: 40px;
+    color: $corTextoPrincipal;
+}
+
+.title--small{
+    font-size: 24px;
+    line-height: 28px;
+    color: $corTextoPrincipal;
+}
+
+.menu{
+    margin-left: 10px;
+    text-decoration: none;
+}

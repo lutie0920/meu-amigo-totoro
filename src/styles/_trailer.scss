@@ -1,0 +1,19 @@
+.trailer{
+    &__video{
+        text-align: center;
+
+        .title{
+            margin-top: 25px;
+            margin-bottom: 25px;
+            text-align: center;
+        }
+
+        video{
+            @media(max-width: 375px){
+                width: 320px;
+                height: auto;
+                margin-top: 50px;
+            }
+        }
+    }
+}
