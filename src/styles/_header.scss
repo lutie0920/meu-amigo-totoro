@@ -21,13 +21,11 @@
             @media(max-width: 768px){
                 display: block;
                 margin-top: 12px;
-                margin-left: -64px;
             }
 
             @media(max-width: 375px){
                 display: block;
                 margin-top: 12px;
-                margin-left: -420px;
             }
 
             button{
@@ -62,9 +60,8 @@
 
     &__links{
         display: flex;
-        justify-content: center;
         margin-top: 16px;
-        margin-left: 640px;
+        justify-content: space-between;
         list-style: none;
 
         &__item{
